@@ -1,14 +1,23 @@
 function Button(){
     const style = {
-        "background-color": "hsl(200, 100%, 50%)",
+        backgroundColor: "hsl(200, 100%, 50%)",
         color: "white",
         padding: "10px 20px",
-        "border-radius": "5px",
+        borderRadius: "5px",
         border: "none",
         cursor: "pointer"
     }
 
-    return (<button style={style}>Button</button>)
+    const buttonTextContent = "Click me 😊"
+
+    let count = 1
+
+    const handleClick = (e) => {
+    e.target.textContent = `Clicked times: ${count++}`
+    }
+
+
+    return (<button style={style} onClick={(e) => handleClick(e)}>{buttonTextContent}</button>)
 }
 
 export default Button
