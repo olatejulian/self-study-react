@@ -1,0 +1,24 @@
+{
+  "author": "Julian Olate <julian.lf.olatw@gmail.com>",
+  "description": "A repository for storing React.js code from various courses, tutorials, and personal learning projects.",
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^9.0.11"
+  },
+  "keywords": [
+    "react",
+    "course",
+    "tutorial",
+    "learning",
+    "nodejs",
+    "typescript",
+    "javascript"
+  ],
+  "license": "MIT",
+  "name": "self-study-react",
+  "version": "0.0.1",
+  "scripts": {
+    "prepare": "husky"
+  }
+}
