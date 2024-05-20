@@ -1,7 +1,7 @@
 export default function ProfilePicture() {
     const imageUrl = './src/assets/profile.png'
 
-    const handleClick = (e) => e.target.style.display = 'none'
+    const handleClick = e => (e.target.style.display = 'none')
 
-    return (<img onClick={(e) => handleClick(e)} src={imageUrl}></img>)
+    return <img onClick={e => handleClick(e)} src={imageUrl}></img>
 }

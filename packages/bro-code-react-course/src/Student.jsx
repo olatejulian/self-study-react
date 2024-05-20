@@ -5,7 +5,7 @@ function Student(props) {
             <p>Age: {props.age}</p>
             <p>Student: {props.isStudent ? 'Yes' : 'No'}</p>
         </div>
-    );
+    )
 }
 
-export default Student;
+export default Student

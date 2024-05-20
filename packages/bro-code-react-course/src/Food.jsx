@@ -1,6 +1,6 @@
 function Food() {
-    const food1 = 'orange';
-    const food2 = 'banana';
+    const food1 = 'orange'
+    const food2 = 'banana'
 
     return (
         <ol>
@@ -8,7 +8,7 @@ function Food() {
             <li>{food1}</li>
             <li>{food2}</li>
         </ol>
-    );
+    )
 }
 
-export default Food;
+export default Food

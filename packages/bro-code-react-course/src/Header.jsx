@@ -20,7 +20,7 @@ function Header() {
             </nav>
             <hr></hr>
         </header>
-    );
+    )
 }
 
-export default Header;
+export default Header

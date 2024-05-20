@@ -9,7 +9,7 @@ function Card() {
             <h2 className="card-title">Username</h2>
             <p className="card-text">User description</p>
         </div>
-    );
+    )
 }
 
-export default Card;
+export default Card
