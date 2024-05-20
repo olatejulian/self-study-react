@@ -1,13 +1,6 @@
-function Button() {
-    const style = {
-        backgroundColor: 'hsl(200, 100%, 50%)',
-        color: 'white',
-        padding: '10px 20px',
-        borderRadius: '5px',
-        border: 'none',
-        cursor: 'pointer',
-    }
+import styles from './Button.module.css'
 
+export default function Button() {
     const buttonTextContent = 'Click me 😊'
 
     let count = 1
@@ -17,10 +10,8 @@ function Button() {
     }
 
     return (
-        <button style={style} onClick={e => handleClick(e)}>
+        <button className={styles.button} onClick={e => handleClick(e)}>
             {buttonTextContent}
         </button>
     )
 }
-
-export default Button
