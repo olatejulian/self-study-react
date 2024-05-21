@@ -6,6 +6,7 @@ import Footer from './Footer'
 import Header from './Header'
 import List from './List'
 import MyComponent from './MyComponent'
+import Onchange from './Onchange'
 import ProfilePicture from './ProfilePicture'
 import Student from './Student'
 import UserGreeting from './UserGreeting'
@@ -30,6 +31,7 @@ export default function App() {
             <ProfilePicture />
             <MyComponent />
             <Counter />
+            <Onchange />
             <Footer />
         </>
     )
