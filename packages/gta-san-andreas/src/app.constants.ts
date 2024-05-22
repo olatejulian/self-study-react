@@ -1,4 +1,4 @@
-export const data: Array<{title: string; code: string[]}> = [
+export const cheatCodes: Array<{title: string; code: string[]}> = [
     {
         title: 'Dinheiro, saúde e armadura',
         code: [
