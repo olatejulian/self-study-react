@@ -386,7 +386,17 @@ export const cheatCodes: Array<{title: string; code: string[]}> = [
     },
     {
         title: 'Carros voadores',
-        code: ['square', 'down', 'L2', 'up', 'L1', 'circle', 'up', 'x', 'left'],
+        code: [
+            'square',
+            'down',
+            'L2',
+            'up',
+            'L1',
+            'circle',
+            'up',
+            'x',
+            'left',
+        ],
     },
     {
         title: 'Barcos voadores',

@@ -1,3 +1,15 @@
-root {
+:root {
+    --color-dark: #1C1F2A;
+    --color-light: #AFC1D1;
+    --default-border-radius: 20px;
+    --default-margin: 1rem;
+    --default-padding: 1rem;
+    background-color: var(--color-light);
+    border: 0;
+    display: flex;
+    height: 100%;
+    justify-content: center;
     margin: 0;
+    padding: var(--default-padding);
+    width: 100%;
 }

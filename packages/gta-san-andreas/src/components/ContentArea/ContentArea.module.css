@@ -1,0 +1,10 @@
+/* how can I make the child content be centralized? */
+.content-area {
+    border: 0;
+    border-radius: var(--default-border-radius);
+    background-color: var(--color-dark);
+    height: fit-content;
+    margin: var(--default-margin);
+    padding: 0;
+    width: fit-content;
+}
