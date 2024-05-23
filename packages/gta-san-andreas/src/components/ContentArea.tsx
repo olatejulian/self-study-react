@@ -1,6 +1,5 @@
 import {v4 as uuidv4} from 'uuid'
-import Box from '../Box/Box.js'
-import styles from './ContentArea.module.css'
+import Box from './Box.js'
 
 interface ContentAreaProps {
     cheatCodes: Array<{title: string; code: string[]}>
@@ -10,7 +9,7 @@ export default function ContentArea(props: ContentAreaProps) {
     const {cheatCodes} = props
 
     return (
-        <div className={styles['content-area']}>
+        <div className="content-area">
             {cheatCodes.map(cheatCode => {
                 return (
                     <Box

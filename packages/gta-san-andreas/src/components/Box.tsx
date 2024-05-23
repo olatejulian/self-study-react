@@ -1,6 +1,5 @@
 import {v4 as uuidv4} from 'uuid'
-import Row from '../Row/Row.js'
-import styles from './Box.module.css'
+import Row from './Row.js'
 
 interface BoxProps {
     title: string
@@ -11,8 +10,8 @@ export default function Box(props: BoxProps) {
     const {title, items} = props
 
     return (
-        <div className={styles.box}>
-            <h2 className={styles['box-title']}>{title}</h2>
+        <div className="box">
+            <h2 className="title">{title}</h2>
             <Row key={uuidv4()} items={items} />
         </div>
     )

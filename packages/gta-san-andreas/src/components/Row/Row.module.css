@@ -1,9 +1,0 @@
-.row {
-    background-color: var(--color-light);
-    border: 0;
-    border-radius: var(--default-border-radius);
-    height: fit-content;
-    margin: 0;
-    padding: var(--default-padding);
-    width: fit-content;
-}

@@ -1,6 +1,6 @@
 import {cheatCodes} from './app.constants.js'
-import ContentArea from './components/ContentArea/ContentArea.js'
-import Header from './components/Header/Header.js'
+import ContentArea from './components/ContentArea.js'
+import Header from './components/Header.js'
 import './index.css'
 
 export default function App() {
