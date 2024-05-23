@@ -1,7 +1,5 @@
 import {cheatCodes} from './app.constants.js'
 import ContentArea from './components/ContentArea.js'
-import Header from './components/Header.js'
-import './index.css'
 
 export default function App() {
     const imageMapper: {[key: string]: string} = {
@@ -25,7 +23,6 @@ export default function App() {
 
     return (
         <>
-            <Header />
             <ContentArea
                 cheatCodes={CheatCodesSorted.map(cheatCode => ({
                     ...cheatCode,

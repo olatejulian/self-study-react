@@ -11,7 +11,7 @@ export default function Box(props: BoxProps) {
 
     return (
         <div className="box">
-            <h2 className="title">{title}</h2>
+            <h2>{title}</h2>
             <Row key={uuidv4()} items={items} />
         </div>
     )

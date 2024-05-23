@@ -1,96 +1,45 @@
 :root {
     --color-dark: #1C1F2A;
     --color-light: #AFC1D1;
-    --default-border-radius: 20px;
-    --default-margin: 1rem;
-    --default-padding: 1rem;
-    background-color: var(--color-light);
+    --default-margin: 1em;
+    background-color: var(--color-dark);
     border: 0;
     display: flex;
     height: 100%;
     justify-content: center;
     margin: 0;
-    padding: var(--default-padding);
+    padding: 0;
     width: 100%;
 }
 
-.card {
-    align-items: center;
-    background-color: var(--color-dark);
+* {
     border: 0;
-    border-radius: var(--default-border-radius);
-    display: inline-flex;
+    margin: 0;
     height: fit-content;
-    justify-content: center;
+    padding: 0;
+    width: fit-content;
+}
+
+.card {
+    display: inline;
     margin: var(--default-margin);
-    width: 100px;
-    padding: var(--default-padding);
 }
 
 .card .image {
-    border: 0;
-    margin: 0;
-    height: 50px;
-    padding: 0;
-    width: 50px;
+    height: 2.5em;
+    width: 2.5em;
 }
 
 .row {
-    background-color: var(--color-light);
-    border: 0;
-    border-radius: var(--default-border-radius);
-    height: fit-content;
-    margin: 0;
-    padding: var(--default-padding);
-    width: fit-content;
-}
-
-.box {
-    background-color: var(--color-dark);
-    border: 0;
-    border-radius: var(--default-border-radius);
-    height: fit-content;
     margin: var(--default-margin);
-    padding: var(--default-padding);
-    width: fit-content;
 }
 
-.box .title {
+.box h2 {
     color: var(--color-light);
-    border: 0;
-    font-size: 50px;
-    height: fit-content;
     margin: var(--default-margin);
-    padding: 0;
-    width: fit-content;
 }
 
-.content-area {
-    border: 0;
-    border-radius: var(--default-border-radius);
-    background-color: var(--color-dark);
-    height: fit-content;
-    margin: var(--default-margin);
-    padding: 0;
-    width: fit-content;
-}
-
-.header {
-    border: 0;
-    border-radius: var(--default-border-radius);
-    background-color: var(--color-dark);
-    height: fit-content;
-    margin: var(--default-margin);
-    padding: var(--default-padding);
-    width: fit-content;
-}
-
-.header .title {
+.content-area h1 {
     color: var(--color-light);
-    border: 0;
-    font-size: 50px;
-    height: fit-content;
-    margin: 0;
-    padding: 0;
-    width: fit-content;
+    margin: calc(var(--default-margin)/1.5);
 }

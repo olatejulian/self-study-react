@@ -10,6 +10,7 @@ export default function ContentArea(props: ContentAreaProps) {
 
     return (
         <div className="content-area">
+            <h1>Trapaças do GTA San Andreas para PS2</h1>
             {cheatCodes.map(cheatCode => {
                 return (
                     <Box
