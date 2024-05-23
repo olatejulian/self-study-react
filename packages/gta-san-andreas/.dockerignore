@@ -1,0 +1,7 @@
+dist/
+node_modules/
+.dockerfile
+Dockerfile
+pnpm-lock.yaml
+README.md
+tsconfig.tsbuildinfo
