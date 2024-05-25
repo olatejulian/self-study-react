@@ -1,0 +1,56 @@
+.sidebar {
+    background: var(--grey-800);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.sidebar .cover {
+    height: 72px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.sidebar .profile {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: calc(0px - 1.5rem - 6px);
+}
+
+.sidebar .profile strong {
+    color: var(--green-500);
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.sidebar .profile span {
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.sidebar > footer {
+    border-top: 1px solid var(--grey-600);
+    margin-top: 1.5rem;
+    padding: 1.5rem 2rem 2rem;
+}
+
+.sidebar > footer a {
+    align-items: center;
+    background: transparent;
+    border: 1px solid var(--green-500);
+    border-radius: 8px;
+    color: var(--green-500);
+    display: flex;
+    font-weight: bold;
+    gap: 0.5rem;
+    height: 50px;
+    justify-content: center;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    transition: color 0.1s, background-color 0.1s;
+}
+
+.sidebar > footer a:hover {
+    background: var(--green-500);
+    color: var(--white);
+}
