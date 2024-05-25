@@ -1,0 +1,91 @@
+.post {
+    background: var(--grey-800);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.post + .post {
+    margin-top: 2rem;
+}
+
+.post > header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post > header > time {
+    font-size: 0.875rem;
+    color: var(--grey-400);
+}
+
+.post .author {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.post .content > p {
+    margin-top: 1rem;
+}
+
+.post .content a {
+    color: var(--green-500);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.post .content a:hover {
+    color: var(--green-300);
+}
+
+.post .commentForm {
+    border-top: 1px solid var(--grey-600);
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    width: 100%;
+}
+
+.post .commentForm:focus-within footer {
+    visibility: visible;
+    max-height: none;
+}
+
+.post .commentForm > strong {
+    color: var(--grey-100);
+    line-height: 1.6;
+}
+
+.post .commentForm > textarea {
+    background: var(--grey-700);
+    border-radius: 8px;
+    color: var(--grey-100);
+    line-height: 1.4;
+    margin-top: 1rem;
+    min-height: 6rem;
+    padding: 1rem;
+    resize: none;
+    width: 100%;
+}
+
+.post .commentForm > footer {
+    max-height: 0;
+    visibility: hidden;
+}
+
+.post .commentForm > footer > button[type='submit'] {
+    background: var(--green-500);
+    border-radius: 8px;
+    color: var(--white);
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    transition: background-color 0.1s;
+}
+
+.post .commentForm > footer > button[type='submit']:hover {
+    background: var(--green-300);
+}
