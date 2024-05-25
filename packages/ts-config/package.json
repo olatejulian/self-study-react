@@ -1,0 +1,7 @@
+{
+  "author": "Julian Olate <julian.lf.olatw@gmail.com>",
+  "license:": "MIT",
+  "name": "@ssreact/ts-config",
+  "private": true,
+  "version": "0.0.1"
+}
