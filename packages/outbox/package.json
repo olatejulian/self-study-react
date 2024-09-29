@@ -1,0 +1,16 @@
+{
+  "author": "",
+  "devDependencies": {
+    "@ssreact/ts-config": "workspace:*"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "name": "@ssreact/seedwork",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}

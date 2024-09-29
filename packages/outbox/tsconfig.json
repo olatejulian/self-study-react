@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "@ssreact/ts-config"
+  ]
+}
