@@ -1,21 +1,20 @@
 {
-  "author": "Julian Olate <julian.lf.olatw@gmail.com>",
+  "author": "Julian Olate <julian.lf.olate@gmail.com>",
   "description": "A repository for storing React.js code from various courses, tutorials, and personal learning projects.",
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@ssreact/eslint-config": "workspace:*",
-    "husky": "^9.0.11",
-    "typescript": "^5.4.5"
+    "husky": "^9.0.11"
   },
   "keywords": [
-    "react",
     "course",
-    "tutorial",
+    "javascript",
     "learning",
     "nodejs",
-    "typescript",
-    "javascript"
+    "react",
+    "tutorial",
+    "typescript"
   ],
   "license": "MIT",
   "name": "ssreact",

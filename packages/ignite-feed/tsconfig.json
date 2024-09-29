@@ -1,6 +1,6 @@
 {
   "extends": [
-    "@ssreact/ts-config/tsconfig.base.json"
+    "@ssreact/ts-config/"
   ],
   "include": [
     "src/**/*.ts",

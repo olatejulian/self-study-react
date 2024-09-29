@@ -1,6 +1,10 @@
 {
-  "author": "Julian Olate <julian.lf.olatw@gmail.com>",
+  "author": "Julian Olate <julian.lf.olate@gmail.com>",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  },
   "license:": "MIT",
+  "main": "tsconfig.json",
   "name": "@ssreact/ts-config",
   "private": true,
   "version": "0.0.1"
